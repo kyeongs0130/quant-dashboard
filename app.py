@@ -407,7 +407,7 @@ def main():
     """메인 앱"""
     # 사이드바 네비게이션
     with st.sidebar:
-        st.image("https://via.placeholder.com/150x50/0E1117/00FF00?text=LOGO", use_column_width=True)
+        st.markdown("# 📊 퀀트 대시보드")
         st.markdown("## 📊 메뉴")
         
         page = st.radio(
